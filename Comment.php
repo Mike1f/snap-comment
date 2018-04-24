@@ -27,10 +27,10 @@ class comment {
 }
 
 	/**
-	 * @param $setCommentText
+	 * @param $commentText
 	 * @return float
 	 */
-	public function setCommentText($setCommentText): float {
+	public function setCommentText($commentText): float {
 		$this->commentText = $commentText;
 }
 
